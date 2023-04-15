@@ -1,0 +1,40 @@
+
+.car{
+  display: flex;
+  justify-content: end;
+
+  .items{
+    height: 25px;
+    width: 25px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background: #53c953;
+
+    p{
+      color: white;
+      font-weight: bold;
+    }
+
+
+  }
+  #carrito{
+    width: 50px;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.1);
+      transition: all 1s;
+    }
+  }
+}
+
+.row{
+  #col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+}

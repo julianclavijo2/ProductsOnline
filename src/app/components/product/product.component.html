@@ -1,0 +1,12 @@
+<div class="item border">
+  <img [src]="productItem.img" alt="">
+  <p class="name">{{productItem.name}}</p>
+  <small> {{productItem.description}}</small>
+  <div style="display: flex;">
+    <img id="button" *ngIf="origin" src="../../../assets/images/delete.png" alt="" (click)="deleteTocar(productItem)">
+    <img id="button" src="../../../assets/images/add.png" alt="" (click)="addTocar(productItem)" >
+
+  </div>
+
+
+</div>

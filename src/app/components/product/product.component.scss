@@ -1,0 +1,35 @@
+.item{
+  height: auto;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  img{
+
+    width: 150px;
+    height: 150px;
+  }
+
+  #button{
+    width: 42px;
+    height: auto;
+    position: relative;
+    left: 31%;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.2);
+      transition: all 1s;
+    }
+
+  }
+
+  small{
+    height: 75px;
+    overflow: scroll;
+
+  }
+
+}
